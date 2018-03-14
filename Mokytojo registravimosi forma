@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title> Mokytojo forma </title>
+
+<link rel="stylesheet" href="stiliai.css">
+
+</head>
+
+
+<body>
+<h1> Mokytojo registracijos forma </h1>
+
+<div class="forma">
+
+<form action="">
+
+<table class="mokforma">
+
+<tr>
+	<td> <p> Vardas: </p> </td>
+	<td> <input type="text" name="vardas"> </td>
+</tr>
+  
+ 
+  
+  <tr>
+	<td> <p> Pavardė: </p> </td>
+	<td> <input type="text" name="pavard"> </td>
+</tr>
+
+<tr>
+	<td> <p> Mokomi dalykai: </p> </td>
+	<td> <input type="text" name="dalykai" placeholder="pvz.: matematika, fizika">  </td>
+</tr>
+
+<tr>
+	<td> <p> El. paštas: </p> </td>
+	<td> <input type="text" name="pastas">  </td>
+</tr>
+
+<tr>
+	<td> <p> Slaptažodis: </p> </td>
+	<td> <input type="password" name="pass"> </td>
+</tr>
+  
+  
+  </table>
+  
+  <input type="submit" value="Registruotis">
+</form> 
+</div>
+</body>
+</html>
